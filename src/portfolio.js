@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "pcho120",
-  title: "Hi all, I'm Hyunkun (Paul) Cho ",
+  title: "Hi all, I'm Hyunkun (Paul) Cho",
   subTitle: emoji(
     "Transforming data into holistic solutions through SQL, Python, & Data Visualization | Expert in Ad-hoc Analysis, Computational Modeling, and Risk Assessment"
   ),
@@ -120,65 +120,6 @@ const skillsSection = {
         { skillName: "PowerPoint", fontAwesomeClassname: "fas fa-file-powerpoint", style: { color: "#B7472A" } },
         { skillName: "Word", fontAwesomeClassname: "fas fa-file-word", style: { color: "#2B579A" } }
       ]
-    }
-  ]
-};
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
