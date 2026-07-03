@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "pcho120",
-  title: "Hi all, I'm Hyunkun (Paul) Cho",
+  username: "Saad Pasta",
+  title: "Hi all, I'm Saad",
   subTitle: emoji(
-    "Transforming data into holistic solutions through SQL, Python, & Data Visualization | Expert in Ad-hoc Analysis, Computational Modeling, and Risk Assessment"
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,9 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/pcho120",
-  linkedin: "https://www.linkedin.com/in/hyunkun-paul-cho-9b25a7168/?skipRedirect=true",
-  gmail: "hyunkun.cho1230@gmail.com",
+  github: "https://github.com/saadpasta",
+  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  gmail: "saadpasta70@gmail.com",
+  gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/saad.pasta7",
+  medium: "https://medium.com/@saadpasta",
+  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -45,81 +49,72 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A tech stack tailored for data analysis, engineering, and actionable insights",
+  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    // 1. Data Intelligence & Analytics
+    emoji(
+      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    ),
+    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji(
+      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    )
+  ],
+
+  /* Make Sure to include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
+
+  softwareSkills: [
     {
-      title: "Data Intelligence & Analytics",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Perform advanced statistical analysis and Exploratory Data Analysis (EDA) using Python, NumPy, and PyTorch.",
-        "⚡ Design and implement interactive enterprise dashboards using Power BI and Tableau with optimized Power Query workflows.",
-        "⚡ Extract actionable business insights from large-scale structured data using professional spreadsheet toolsets (Excel/Sheets)."
-      ],
-      softwareSkills: [
-        { skillName: "Python", fontAwesomeClassname: "fab fa-python", style: { color: "#3776AB" } },
-        { skillName: "SQL", fontAwesomeClassname: "fas fa-database", style: { color: "#00758F" } },
-        { skillName: "NumPy", fontAwesomeClassname: "fas fa-matrix", style: { color: "#013243" } },
-        { skillName: "Pytorch", fontAwesomeClassname: "fas fa-brain", style: { color: "#EE4C2C" } },
-        { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar", style: { color: "#F2C811" } },
-        { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-pie", style: { color: "#E97627" } },
-        { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel", style: { color: "#107C41" } }
-      ]
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
     },
-    // 2. Software & AI Application Engineering
     {
-      title: "Software & AI Application Engineering",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Develop scalable applications and backend systems utilizing Java, C#, C/C++, PHP, and Node.js.",
-        "⚡ Build modern, responsive user interfaces and web applications using Svelte, JavaScript, and HTML/CSS.",
-        "⚡ Integrate advanced LLM architectures, OpenAI APIs, and OpenAPI specifications into core software solutions.",
-        "⚡ Implement efficient Data Structures & Algorithms to optimize system performance and codebase reliability."
-      ],
-      softwareSkills: [
-        { skillName: "Java", fontAwesomeClassname: "fab fa-java", style: { color: "#007396" } },
-        { skillName: "C#", fontAwesomeClassname: "fas fa-code", style: { color: "#239120" } },
-        { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js", style: { color: "#F7DF1E" } },
-        { skillName: "Svelte", fontAwesomeClassname: "fab fa-svelte", style: { color: "#FF3E00" } },
-        { skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js", style: { color: "#339933" } },
-        { skillName: "PHP", fontAwesomeClassname: "fab fa-php", style: { color: "#777BB4" } },
-        { skillName: "OpenAI", fontAwesomeClassname: "fas fa-robot", style: { color: "#412991" } }
-      ]
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     },
-    // 3. Database, Infrastructure & DevOps
     {
-      title: "Database, Infrastructure & DevOps",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Architect and manage enterprise relational and Non-Relational databases using MS SQL Server and MongoDB.",
-        "⚡ Automate CI/CD pipelines and deployment workflows using Git and GitHub Actions.",
-        "⚡ Administer secure network protocols, system configurations, and directory services via TCP/IP, PowerShell, and Active Directory."
-      ],
-      softwareSkills: [
-        { skillName: "Microsoft SQL Server", fontAwesomeClassname: "fas fa-server", style: { color: "#CC292B" } },
-        { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf", style: { color: "#47A248" } },
-        { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt", style: { color: "#F05032" } },
-        { skillName: "GitHub Actions", fontAwesomeClassname: "fab fa-github", style: { color: "#2088FF" } },
-        { skillName: "PowerShell", fontAwesomeClassname: "fas fa-terminal", style: { color: "#5391FE" } },
-        { skillName: "TCP/IP", fontAwesomeClassname: "fas fa-network-wired", style: { color: "#4285F4" } }
-      ]
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
     },
-    // 4. Business Operations & Quality Management
     {
-      title: "Business Operations & Quality Management",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Streamline enterprise workflows, Inventory Management, and supply chain logistics through ERP systems.",
-        "⚡ Apply Six Sigma methodologies and Quality Assurance (QA) practices to eliminate process inefficiencies.",
-        "⚡ Produce professional technical documentation and corporate presentations utilizing Word and PowerPoint suites."
-      ],
-      softwareSkills: [
-        { skillName: "ERP", fontAwesomeClassname: "fas fa-industry", style: { color: "#0056B3" } },
-        { skillName: "Quality Assurance", fontAwesomeClassname: "fas fa-check-circle", style: { color: "#28A745" } },
-        { skillName: "Six Sigma", fontAwesomeClassname: "fas fa-gem", style: { color: "#6F42C1" } },
-        { skillName: "PowerPoint", fontAwesomeClassname: "fas fa-file-powerpoint", style: { color: "#B7472A" } },
-        { skillName: "Word", fontAwesomeClassname: "fas fa-file-word", style: { color: "#2B579A" } }
-      ]
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "swift",
+      fontAwesomeClassname: "fab fa-swift"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
