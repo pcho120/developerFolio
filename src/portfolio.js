@@ -73,7 +73,7 @@ const skillsSection = {
     { skillName: "Microsoft SQL Server", fontAwesomeClassname: "fas fa-server", style: { color: "#CC292B" } },
     { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf", style: { color: "#47A248" } },
     { skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js", style: { color: "#339933" } },
-    { skillName: "NumPy", fontAwesomeClassname: "fas fa-matrix", style: { color: "#013243" } },
+    { skillName: "NumPy", fontAwesomeClassname: "fab fa-python", style: { color: "#3776AB" } },
     { skillName: "OpenAI", fontAwesomeClassname: "fas fa-robot", style: { color: "#412991" } },
     { skillName: "OpenAPI", fontAwesomeClassname: "fas fa-exchange-alt", style: { color: "#85EA2D" } },
     { skillName: "PHP", fontAwesomeClassname: "fab fa-php", style: { color: "#777BB4" } },
@@ -100,23 +100,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
+      schoolName: "University of Toledo",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      subHeader: "Bachelor of Engineering in Computer Science",
+      duration: "August 2016 - May 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -127,16 +116,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Data Analysis & Business Intelligence", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Data Engineering & Databases",
+      progressPercentage: "85%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -148,29 +137,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Data Analyst",
+      company: "NOX US",
+      //companylogo: require("./assets/images/facebookLogo.png"),
+      date: "June 2023 - May 2026",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Data Analysis & Insights: Utilize advanced Excel and SQL (filtering, joins) for data extraction, defect analysis, and reporting to support business decision-making and identify operational trends. ",
+        "Process Improvement: Troubleshoot root causes of claims, provide data-driven corrective actions, and suggest workflow improvements based on data findings."
+        "System & IT Liaison: Support ERP system implementation and utilize ERP data for operational analysis, reporting, and providing IT support for internal systems and users."
+        "Automation & Efficiency: Develop and automate data processing workflows using Python and databases to improve reporting accuracy and efficiency."
+        "Documentation & Stakeholder Communication: Document data processes, validate datasets to ensure accuracy, and clearly communicate findings and data issues to internal stakeholders."
+        "Compliance & Technical Standardization: Prepare and work on international certifications (ISO, ASTM, EN, Greenguard, etc.) and program database/server/front-end/back-end related tools to digitalize and analyze collected data."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "IT Tech",
+      company: "University of Toledo",
+      //companylogo: require("./assets/images/quoraLogo.png"),
+      date: "August 2021 - May 2023",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Cross-Functional Collaboration: Collaborate with clients to identify business objectives, lead technical workshops, and provide ongoing support to IT staff and internal departments. ",
+        "Problem Solving & Systems Evaluation: Analyze recurring IT issues faced by various departments, leading to enhanced team performance by 20% and achieving a 95%+ Customer Satisfaction (CSAT) score. "
+        "System Implementation & Testing: Support the implementation and quality assurance (QA) testing of new software, including EPIC, and manage electronic assets across multiple departments using Active Directory."
+        "Technical Support: Provided Tier 1-2 technical support for over 21,000 users across academic and administrative departments, testing and deploying software and reimaging computers."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Marine",
+      company: "Republic of Korea Marine Corps",
+      //companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "August 2019 - March 2021",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets: [
+        "Administration & Data Management: Managed company members' personal information, prepared extensive materials for long-term training, and scheduled vacations for members.",
+        "Technical Operations: Trained to drive, fire, and troubleshoot self-propelled artillery."
+      ]
     }
   ]
 };
