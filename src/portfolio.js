@@ -51,80 +51,45 @@ const skillsSection = {
   title: "What I do",
   subTitle: "A tech stack tailored for data analysis, engineering, and actionable insights",
   skills: [
-    // 1. Data Intelligence & Analytics
-    {
-      title: "Data Intelligence & Analytics",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Perform advanced statistical analysis and Exploratory Data Analysis (EDA) using Python, NumPy, and PyTorch.",
-        "⚡ Design and implement interactive enterprise dashboards using Power BI and Tableau with optimized Power Query workflows.",
-        "⚡ Extract actionable business insights from large-scale structured data using professional spreadsheet toolsets (Excel/Sheets)."
-      ],
-      softwareSkills: [
-        { skillName: "Python", fontAwesomeClassname: "fab fa-python", style: { color: "#3776AB" } },
-        { skillName: "SQL", fontAwesomeClassname: "fas fa-database", style: { color: "#00758F" } },
-        { skillName: "NumPy", fontAwesomeClassname: "fas fa-matrix", style: { color: "#013243" } },
-        { skillName: "Pytorch", fontAwesomeClassname: "fas fa-brain", style: { color: "#EE4C2C" } },
-        { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar", style: { color: "#F2C811" } },
-        { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-pie", style: { color: "#E97627" } },
-        { skillName: "Excel", fontAwesomeClassname: "fas fa-file-excel", style: { color: "#107C41" } }
-      ]
-    },
-    // 2. Software & AI Application Engineering
-    {
-      title: "Software & AI Application Engineering",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Develop scalable applications and backend systems utilizing Java, C#, C/C++, PHP, and Node.js.",
-        "⚡ Build modern, responsive user interfaces and web applications using Svelte, JavaScript, and HTML/CSS.",
-        "⚡ Integrate advanced LLM architectures, OpenAI APIs, and OpenAPI specifications into core software solutions.",
-        "⚡ Implement efficient Data Structures & Algorithms to optimize system performance and codebase reliability."
-      ],
-      softwareSkills: [
-        { skillName: "Java", fontAwesomeClassname: "fab fa-java", style: { color: "#007396" } },
-        { skillName: "C#", fontAwesomeClassname: "fas fa-code", style: { color: "#239120" } },
-        { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js", style: { color: "#F7DF1E" } },
-        { skillName: "Svelte", fontAwesomeClassname: "fab fa-svelte", style: { color: "#FF3E00" } },
-        { skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js", style: { color: "#339933" } },
-        { skillName: "PHP", fontAwesomeClassname: "fab fa-php", style: { color: "#777BB4" } },
-        { skillName: "OpenAI", fontAwesomeClassname: "fas fa-robot", style: { color: "#412991" } }
-      ]
-    },
-    // 3. Database, Infrastructure & DevOps
-    {
-      title: "Database, Infrastructure & DevOps",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Architect and manage enterprise relational and Non-Relational databases using MS SQL Server and MongoDB.",
-        "⚡ Automate CI/CD pipelines and deployment workflows using Git and GitHub Actions.",
-        "⚡ Administer secure network protocols, system configurations, and directory services via TCP/IP, PowerShell, and Active Directory."
-      ],
-      softwareSkills: [
-        { skillName: "Microsoft SQL Server", fontAwesomeClassname: "fas fa-server", style: { color: "#CC292B" } },
-        { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf", style: { color: "#47A248" } },
-        { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt", style: { color: "#F05032" } },
-        { skillName: "GitHub Actions", fontAwesomeClassname: "fab fa-github", style: { color: "#2088FF" } },
-        { skillName: "PowerShell", fontAwesomeClassname: "fas fa-terminal", style: { color: "#5391FE" } },
-        { skillName: "TCP/IP", fontAwesomeClassname: "fas fa-network-wired", style: { color: "#4285F4" } }
-      ]
-    },
-    // 4. Business Operations & Quality Management
-    {
-      title: "Business Operations & Quality Management",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Streamline enterprise workflows, Inventory Management, and supply chain logistics through ERP systems.",
-        "⚡ Apply Six Sigma methodologies and Quality Assurance (QA) practices to eliminate process inefficiencies.",
-        "⚡ Produce professional technical documentation and corporate presentations utilizing Word and PowerPoint suites."
-      ],
-      softwareSkills: [
-        { skillName: "ERP", fontAwesomeClassname: "fas fa-industry", style: { color: "#0056B3" } },
-        { skillName: "Quality Assurance", fontAwesomeClassname: "fas fa-check-circle", style: { color: "#28A745" } },
-        { skillName: "Six Sigma", fontAwesomeClassname: "fas fa-gem", style: { color: "#6F42C1" } },
-        { skillName: "PowerPoint", fontAwesomeClassname: "fas fa-file-powerpoint", style: { color: "#B7472A" } },
-        { skillName: "Word", fontAwesomeClassname: "fas fa-file-word", style: { color: "#2B579A" } }
-      ]
-    }
+    "⚡ Leverage a broad range of programming languages and data tools to architect end-to-end Solutions.",
+    "⚡ Extract actionable insights through scalable data analysis, relational/non-relational databases, and enterprise BI tools.",
+    "⚡ Optimize system workflows, automation pipelines, DevOps setups, and cloud intelligence ecosystems."
+  ],
+  softwareSkills: [
+    { skillName: "Active Directory", fontAwesomeClassname: "fas fa-users-cog", style: { color: "#0078D4" } },
+    { skillName: "C#", fontAwesomeClassname: "fas fa-code", style: { color: "#239120" } },
+    { skillName: "C/C++", fontAwesomeClassname: "fas fa-terminal", style: { color: "#00599C" } },
+    { skillName: "Data Analysis", fontAwesomeClassname: "fas fa-chart-pie", style: { color: "#FF6B6B" } },
+    { skillName: "Data Structures & Algorithms", fontAwesomeClassname: "fas fa-project-diagram", style: { color: "#4D96FF" } },
+    { skillName: "ERP", fontAwesomeClassname: "fas fa-industry", style: { color: "#0056B3" } },
+    { skillName: "Excel/Numbers/Sheets", fontAwesomeClassname: "fas fa-file-excel", style: { color: "#107C41" } },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt", style: { color: "#F05032" } },
+    { skillName: "Github Actions", fontAwesomeClassname: "fab fa-github", style: { color: "#2088FF" } },
+    { skillName: "HTML/CSS", fontAwesomeClassname: "fab fa-html5", style: { color: "#E34F26" } },
+    { skillName: "Inventory Management", fontAwesomeClassname: "fas fa-boxes", style: { color: "#FF9F43" } },
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java", style: { color: "#007396" } },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js", style: { color: "#F7DF1E" } },
+    { skillName: "LLM", fontAwesomeClassname: "fas fa-brain", style: { color: "#6C5CE7" } },
+    { skillName: "Microsoft SQL Server", fontAwesomeClassname: "fas fa-server", style: { color: "#CC292B" } },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf", style: { color: "#47A248" } },
+    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js", style: { color: "#339933" } },
+    { skillName: "NumPy", fontAwesomeClassname: "fas fa-matrix", style: { color: "#013243" } },
+    { skillName: "OpenAI", fontAwesomeClassname: "fas fa-robot", style: { color: "#412991" } },
+    { skillName: "OpenAPI", fontAwesomeClassname: "fas fa-exchange-alt", style: { color: "#85EA2D" } },
+    { skillName: "PHP", fontAwesomeClassname: "fab fa-php", style: { color: "#777BB4" } },
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-bar", style: { color: "#F2C811" } },
+    { skillName: "PowerPoint/Keynote/Slides", fontAwesomeClassname: "fas fa-file-powerpoint", style: { color: "#B7472A" } },
+    { skillName: "Power query", fontAwesomeClassname: "fas fa-filter", style: { color: "#0085CAF" } },
+    { skillName: "PowerShell", fontAwesomeClassname: "fas fa-terminal", style: { color: "#5391FE" } },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python", style: { color: "#3776AB" } },
+    { skillName: "Pytorch", fontAwesomeClassname: "fas fa-fire", style: { color: "#EE4C2C" } },
+    { skillName: "Quality Assurance (QA)", fontAwesomeClassname: "fas fa-check-circle", style: { color: "#28A745" } },
+    { skillName: "Six Sigma", fontAwesomeClassname: "fas fa-gem", style: { color: "#6F42C1" } },
+    { skillName: "SQL", fontAwesomeClassname: "fas fa-database", style: { color: "#00758F" } },
+    { skillName: "Svelte", fontAwesomeClassname: "fab fa-svelte", style: { color: "#FF3E00" } },
+    { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line", style: { color: "#E97627" } },
+    { skillName: "TCP/IP", fontAwesomeClassname: "fas fa-network-wired", style: { color: "#4285F4" } },
+    { skillName: "Word/Pages/Docs", fontAwesomeClassname: "fas fa-file-word", style: { color: "#2B579A" } }
   ],
   display: true // Set false to hide this section, defaults to true
 };
