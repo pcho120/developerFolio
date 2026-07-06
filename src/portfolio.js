@@ -145,10 +145,10 @@ const workExperiences = {
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Data Analysis & Insights: Utilize advanced Excel and SQL (filtering, joins) for data extraction, defect analysis, and reporting to support business decision-making and identify operational trends. ",
-        "Process Improvement: Troubleshoot root causes of claims, provide data-driven corrective actions, and suggest workflow improvements based on data findings."
-        "System & IT Liaison: Support ERP system implementation and utilize ERP data for operational analysis, reporting, and providing IT support for internal systems and users."
-        "Automation & Efficiency: Develop and automate data processing workflows using Python and databases to improve reporting accuracy and efficiency."
-        "Documentation & Stakeholder Communication: Document data processes, validate datasets to ensure accuracy, and clearly communicate findings and data issues to internal stakeholders."
+        "Process Improvement: Troubleshoot root causes of claims, provide data-driven corrective actions, and suggest workflow improvements based on data findings.",
+        "System & IT Liaison: Support ERP system implementation and utilize ERP data for operational analysis, reporting, and providing IT support for internal systems and users.",
+        "Automation & Efficiency: Develop and automate data processing workflows using Python and databases to improve reporting accuracy and efficiency.",
+        "Documentation & Stakeholder Communication: Document data processes, validate datasets to ensure accuracy, and clearly communicate findings and data issues to internal stakeholders.",
         "Compliance & Technical Standardization: Prepare and work on international certifications (ISO, ASTM, EN, Greenguard, etc.) and program database/server/front-end/back-end related tools to digitalize and analyze collected data."
       ]
     },
@@ -160,8 +160,8 @@ const workExperiences = {
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       descBullets: [
         "Cross-Functional Collaboration: Collaborate with clients to identify business objectives, lead technical workshops, and provide ongoing support to IT staff and internal departments. ",
-        "Problem Solving & Systems Evaluation: Analyze recurring IT issues faced by various departments, leading to enhanced team performance by 20% and achieving a 95%+ Customer Satisfaction (CSAT) score. "
-        "System Implementation & Testing: Support the implementation and quality assurance (QA) testing of new software, including EPIC, and manage electronic assets across multiple departments using Active Directory."
+        "Problem Solving & Systems Evaluation: Analyze recurring IT issues faced by various departments, leading to enhanced team performance by 20% and achieving a 95%+ Customer Satisfaction (CSAT) score. ",
+        "System Implementation & Testing: Support the implementation and quality assurance (QA) testing of new software, including EPIC, and manage electronic assets across multiple departments using Active Directory.",
         "Technical Support: Provided Tier 1-2 technical support for over 21,000 users across academic and administrative departments, testing and deploying software and reimaging computers."
       ]
     },
