@@ -102,7 +102,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Toledo",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/UniversityOfToledo.png"),
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "August 2016 - May 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -140,7 +140,7 @@ const workExperiences = {
     {
       role: "Data Analyst",
       company: "NOX US",
-      companylogo: require("./assets/images/NOXUS.png"),
+      companylogo: require("./assets/images/NOX-US.png"),
       date: "June 2023 - May 2026",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
