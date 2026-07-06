@@ -238,7 +238,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      //image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "AI Content Detector",
       projectDesc: "Created an LLM-integrated AI text detector that utilizes natural language processing (NLP) to distinguish human-written content from machine-generated text.",
       footerLink: [
