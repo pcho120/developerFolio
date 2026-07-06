@@ -442,12 +442,14 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  /*
   achievementSection,
   blogSection,
   talkSection,
   podcastSection,
-  contactInfo,
   twitterDetails,
+  */
+  contactInfo,
   isHireable,
   resumeSection
 };
