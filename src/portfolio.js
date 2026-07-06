@@ -27,7 +27,7 @@ const greeting = {
     "Transforming data into holistic solutions through SQL, Python, & Data Visualization | Expert in Ad-hoc Analysis, Computational Modeling, and Risk Assessment"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1LViDJXFQI7p1jQpKTA5avHX13ldBztYm/preview", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -87,7 +87,7 @@ const skillsSection = {
     { skillName: "Quality Assurance (QA)", fontAwesomeClassname: "fas fa-check-circle", style: { color: "#28A745" } },
     { skillName: "Six Sigma", fontAwesomeClassname: "fas fa-gem", style: { color: "#6F42C1" } },
     { skillName: "SQL", fontAwesomeClassname: "fas fa-database", style: { color: "#00758F" } },
-    { skillName: "Svelte", fontAwesomeClassname: "fab fa-svelte", style: { color: "#FF3E00" } },
+    { skillName: "Svelte", fontAwesomeClassname: "fas fa-cubes", style: { color: "#FF3E00" } },
     { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line", style: { color: "#E97627" } },
     { skillName: "TCP/IP", fontAwesomeClassname: "fas fa-network-wired", style: { color: "#4285F4" } },
     { skillName: "Word/Pages/Docs", fontAwesomeClassname: "fas fa-file-word", style: { color: "#2B579A" } }
@@ -191,28 +191,93 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "DATA ENGINEERING, ANALYSIS, AND AI ECOSYSTEMS I HAVE BUILT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Hospital Dashboard (Power BI)",
+      projectDesc: "Built an interactive Power BI dashboard to track, visualize, and analyze critical hospital performance metrics, streamlining operational decision-making.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Repository",
+          url: "https://github.com/pcho120/HospitalDashboardPower-BI"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "AutoCare Hospital System",
+      projectDesc: "Developed an automated hospital administration and care management system designed to optimize clinical workflows and improve data integration.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Repository",
+          url: "https://github.com/pcho120/AutoCareHospital"
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Political Tendency Analysis",
+      projectDesc: "Engineered a computational modeling pipeline to analyze and classify political orientation and tendencies within textual datasets.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/pcho120/political_tendency"
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Social Media Political Analytics",
+      projectDesc: "Scraped and processed large-scale social media data to evaluate public sentiment and detect shifts in political alignment over time.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/pcho120/political_tendency_social_media"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "AI Content Detector",
+      projectDesc: "Created an LLM-integrated AI text detector that utilizes natural language processing (NLP) to distinguish human-written content from machine-generated text.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/pcho120/ai_detector"
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Computer Vision Image Recognition",
+      projectDesc: "Designed and trained a deep learning computer vision model optimized for accurate object detection and image recognition tasks.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/pcho120/Image-recognition"
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Movie Exploration Web App",
+      projectDesc: "Developed a dynamic web application that connects to movie APIs to fetch, filter, and display trending media content in a responsive UI.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/pcho120/movie_app"
+        }
+      ]
+    },
+    {
+     //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Automated Email Sender",
+      projectDesc: "Built an automation script designed to streamline communication workflows by sending programmatic, targeted emails efficiently.",
+      footerLink: [
+        {
+          name: "View Repository",
+          url: "https://github.com/pcho120/Email-Sender"
         }
       ]
     }
@@ -222,7 +287,7 @@ const bigProjects = {
 
 // Achievement Section
 // Include certificates, talks etc
-
+/*
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
@@ -280,9 +345,9 @@ const achievementSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
+*/
 // Blogs Section
-
+/*
 const blogSection = {
   title: "Blogs",
   subtitle:
@@ -304,9 +369,9 @@ const blogSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
+*/
 // Talks Sections
-
+/*
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
@@ -323,9 +388,10 @@ const talkSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+*/
 
+/*
 // Podcast Section
-
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
@@ -337,6 +403,7 @@ const podcastSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+*/
 // Resume Section
 const resumeSection = {
   title: "Resume",
@@ -350,16 +417,17 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  //number: "+92-0000000000",
+  email_address: "hyunkun.cho1230@gmail.com"
 };
 
+/*
 // Twitter Section
-
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
+*/
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
