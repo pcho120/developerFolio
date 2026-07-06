@@ -140,7 +140,7 @@ const workExperiences = {
     {
       role: "Data Analyst",
       company: "NOX US",
-      //companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/NOXUS.png"),
       date: "June 2023 - May 2026",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -155,7 +155,7 @@ const workExperiences = {
     {
       role: "IT Tech",
       company: "University of Toledo",
-      //companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/UniversityOfToledo.png"),
       date: "August 2021 - May 2023",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       descBullets: [
@@ -168,7 +168,7 @@ const workExperiences = {
     {
       role: "Marine",
       company: "Republic of Korea Marine Corps",
-      //companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/ROKMC.png"),
       date: "August 2019 - March 2021",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       descBullets: [
