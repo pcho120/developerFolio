@@ -105,7 +105,7 @@ const educationInfo = {
       logo: require("./assets/images/UniversityOfToledo.png"),
       subHeader: "Bachelor of Engineering in Computer Science",
       duration: "August 2016 - May 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Took courses about Software Engineering, Web Security, Operating Systems, ...",
       //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
