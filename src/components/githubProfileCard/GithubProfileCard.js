@@ -4,6 +4,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo, isHireable} from "../../portfolio";
 import emoji from "react-easy-emoji";
 import {Fade} from "react-reveal";
+import vCard from "../../containers/greeting/resume.pdf";
 
 export default function GithubProfileCard({prof}) {
   if (isHireable) {
@@ -46,6 +47,18 @@ export default function GithubProfileCard({prof}) {
                 Open for opportunities: {prof.hireable}
               </span>
             </div>
+            
+            <div className="resume-btn-div" style={{ marginTop: "20px", marginBottom: "20px" }}>
+              <a
+                href={vCard}
+                className="main-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                See My Resume
+              </a>
+            </div>
+
             <SocialMedia />
           </div>
           <div className="image-content-profile">
